@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:hsl(257, 40%, 49%);
+}
+
+.designs{
+    width: 100vw;
+    height: 45vh;
+    background: url(./images/bg-mobile.svg) no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.illustration{
+    width: 80vw;
+    height: 48vh;
+    
+
+}
+.illustration img{
+    width: 80vw;
+    height: 23.8vh;
+    
+}
+.logo{
+    width: inherit;
+    height: 10vh;
+    padding-bottom: 3rem;
+}
+.logo img{
+    width: 33vw;
+    height: 15vh;
+
+
+}
+.header1{
+    width: 80vw;
+    height: 9vh;
+    margin-left: 2.4rem;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+.paragraph{
+    width: 80vw;
+    color: white;
+    height: 14vh;
+    margin-left: 2.4rem;
+    margin-bottom: 1rem;
+}
+p{ 
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    
+}
+.btn_container{
+    width: 100vw;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+button{
+    align-self: center;
+    justify-self: center;
+    width: 55vw;
+    height: 5vh;
+    border-radius: 5rem;
+}
+.social_contacts{
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social_contacts div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 40vw;
+    height: fit-content;
+}
+.social_contacts div i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 4vh;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.social_contacts div i img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 5vw;
+
+}
+
+@media (min-width: 1440px){
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(./images/bg-desktop.svg),hsl(257, 40%, 49%);
+    background-size: cover;
+   display: flex;
+}
+.designs{
+    background: none;
+    width: 54em;
+    height: 100em;
+    display: block;
+    place-content: center;
+}
+
+.designs img{
+    width: 52em;
+    height: 35em;
+}
+.illustration{
+    margin-left: 2rem;
+    width: 52em;
+    height: 100em;
+}
+.logo{
+    height: 10em;
+    width: 20em;
+}
+.logo img{
+    width: 10em;
+    height: 10em;
+   
+}
+
+.box1440px{
+    width: 45em;
+    height: 100em;
+   display: block;
+}
+.header1{
+    width: 35em;
+    height: 8em;
+    margin-top: 15.5em;
+    margin-bottom: 2.2em;
+    
+}
+h1{
+    color: white;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+    
+
+}
+.paragraph{
+    width:34em;
+    color: white;
+    height: 5em;
+}
+p{ 
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    
+}
+.btn_container{
+    width: 10em;
+    height: 3em;
+    margin-left: 2.5em;
+    border-radius: 10%;
+    margin-bottom: 15em;
+    
+    
+}
+button{
+    
+    width: 12em;
+    height: 3.5em;
+    background-color: white;
+    border-radius: 5em;
+}
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+    border: 1px solid hsl(300, 69%, 71%);
+}
+.social_contacts{
+    width: 10em;
+    height: 3em;
+    margin-left: 25em;
+    margin-bottom: 1em;
+}
+.social_contacts div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 9rem;
+    height: fit-content;
+}
+.social_contacts div i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5em;
+    height: 4vh;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.social_contacts div i:hover{
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+    border: 1px solid hsl(300, 69%, 71%);
+}
+.social_contacts div i img{
+    max-width: 1em;
+    max-height: 1em;
+    width: 5em;
+
+}
+}
